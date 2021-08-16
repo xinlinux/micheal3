@@ -1,10 +1,6 @@
+let i = 1
 basic.forever(function () {
-    basic.showNumber(0 + 1)
-    music.playMelody("D D D D D D D D ", 3200)
-    basic.showNumber(1 + 1)
-    music.playMelody("C5 C5 C5 C5 C5 C5 C5 C5 ", 3200)
-    basic.showNumber(2 + 1)
-    music.playMelody("B B B B B B B B ", 3200)
-    basic.showNumber(3 + 1)
-    music.playMelody("A A A A A A A A ", 3200)
+    basic.showNumber(i)
+    basic.pause(1000)
+    i += 1
 })
